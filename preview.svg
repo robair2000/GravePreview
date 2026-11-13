@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="330" viewBox="0 0 640 330" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="640" height="330" fill="#10151b"/>
+  <text x="24" y="34" fill="#d8b45a" font-size="15" font-weight="700" letter-spacing="1.2">GRAVEPREVIEW</text>
+  <text x="24" y="52" fill="#66727e" font-size="10">Corpse icon on the world map at your likely respawn graveyard</text>
+
+  <!-- map -->
+  <g transform="translate(24,68)">
+    <rect width="592" height="214" rx="6" fill="#1b2a22" stroke="#3d4f42" stroke-width="1"/>
+    <path d="M0 60 L120 40 L210 82 L330 55 L450 90 L592 65" fill="none" stroke="#2c4234" stroke-width="2"/>
+    <path d="M0 150 L90 128 L180 160 L280 136 L390 168 L500 140 L592 165" fill="none" stroke="#2c4234" stroke-width="2"/>
+    <path d="M150 0 L170 214 M400 0 L380 214" stroke="#263a2d" stroke-width="1.5"/>
+    <circle cx="110" cy="160" r="4" fill="#c7a24a" opacity="0.45"/>
+    <circle cx="330" cy="88" r="4" fill="#c7a24a" opacity="0.35"/>
+    <circle cx="490" cy="175" r="4" fill="#c7a24a" opacity="0.3"/>
+
+    <!-- graveyard pins -->
+    <g transform="translate(90,140)">
+      <circle cx="0" cy="0" r="10" fill="#1a251e" stroke="#7f8f7f" stroke-width="1.5"/>
+      <path d="M-4 -6 L4 -6 L4 7 L-4 7 Z M-3 7 L3 7 M0 3 L0 7" fill="none" stroke="#aab5a8" stroke-width="1.2"/>
+    </g>
+    <g transform="translate(360,120)">
+      <circle cx="0" cy="0" r="11" fill="#231d12" stroke="#e0b84c" stroke-width="2"/>
+      <path d="M-5 -7 L5 -7 L5 8 L-5 8 Z M-4 8 L4 8 M0 2 L0 8" fill="none" stroke="#f1d27a" stroke-width="1.4"/>
+      <circle cx="0" cy="0" r="19" fill="none" stroke="#e0b84c" stroke-opacity="0.35" stroke-width="2"/>
+    </g>
+    <g transform="translate(500,85)">
+      <circle cx="0" cy="0" r="9" fill="#1a251e" stroke="#7f8f7f" stroke-width="1.5"/>
+      <path d="M-4 -6 L4 -6 L4 7 L-4 7 Z M-3 7 L3 7 M0 3 L0 7" fill="none" stroke="#aab5a8" stroke-width="1.2"/>
+    </g>
+
+    <!-- tooltip -->
+    <g transform="translate(245,118)">
+      <rect width="258" height="82" rx="4" fill="#090c10" fill-opacity="0.96" stroke="#5a4a23" stroke-width="1"/>
+      <text x="12" y="20" fill="#f3d275" font-size="11" font-weight="700">Likely graveyard</text>
+      <text x="12" y="38" fill="#f2f2f2" font-size="11">Goldshire</text>
+      <text x="12" y="55" fill="#bdc4cc" font-size="10">~120 yd from you</text>
+      <text x="12" y="70" fill="#7f8892" font-size="9">Closest eligible graveyard. Zone rules can still differ.</text>
+    </g>
+  </g>
+
+  <text x="24" y="306" fill="#5c6670" font-size="10">Live prediction works in the open world. Battlegrounds and dungeons hide your coordinates from addons.</text>
+</svg>

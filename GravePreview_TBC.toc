@@ -1,0 +1,14 @@
+## Interface: 20506
+## Title: GravePreview
+## Notes: Shows a corpse icon on the world map at the graveyard you are most likely to respawn at if you die.
+## Author: OpenCode
+## Version: 1.0.0
+## SavedVariables: GravePreviewDB
+## IconTexture: Interface\Icons\Achievement_GraveRobber
+## Category: Map
+## X-Category: Map
+## X-License: MIT
+
+GravePreviewData.lua
+GravePreview.lua
+GravePreview.xml
